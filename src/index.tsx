@@ -24,7 +24,7 @@ function withContainers ( ...Containers ) {
 
       }
 
-    };
+    } as any;
 
   };
 

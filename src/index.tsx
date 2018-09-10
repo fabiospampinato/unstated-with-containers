@@ -17,7 +17,7 @@ function withContainers ( ...Containers ) {
         return (
           <Subscribe to={[...Containers]}>
             {( ...containers ) => (
-              <WrappedComponent containers={containers} {...this.props} />
+              <WrappedComponent containers={containers} container={containers[0]} {...this.props} />
             )}
           </Subscribe>
         );

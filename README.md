@@ -30,7 +30,7 @@ class CounterContainer extends Container<any> {
 }
 
 const App = withContainers ( CounterContainer )(
-  ({ containers: [counter] }) => (
+  ({ containers: [counter] }) => ( // props.containers[0] === props.container
     <>
       <p>{counter.state.value}</p>
       <button onClick={counter.increment.bind ( counter )}>Increment</button>

@@ -10,7 +10,7 @@ function withContainers ( ...Containers ) {
 
   return function wrapper ( WrappedComponent ) {
 
-    return class ContainersProvider extends React.Component<any, undefined> {
+    return class ContainersProvider extends React.Component<any, any> {
 
       render () {
 

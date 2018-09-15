@@ -40,6 +40,10 @@ const App = withContainers ( CounterContainer )(
 );
 ```
 
+## Related
+
+- **[unstated-compose](https://github.com/fabiospampinato/unstated-compose)**: Compose multiple containers into one.
+
 ## License
 
 MIT © Fabio Spampinato

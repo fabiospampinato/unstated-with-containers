@@ -43,6 +43,7 @@ const App = withContainers ( CounterContainer )(
 ## Related
 
 - **[unstated-compose](https://github.com/fabiospampinato/unstated-compose)**: Compose multiple containers into one.
+- **[unstated-connect2](https://github.com/fabiospampinato/unstated-connect2)**: Easily connect your containers to components, without sacrificing performance.
 
 ## License
 

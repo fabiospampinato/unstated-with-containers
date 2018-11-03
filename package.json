@@ -8,8 +8,7 @@
     "clean": "rimraf dist",
     "compile": "tsc --skipLibCheck",
     "compile:watch": "tsc --skipLibCheck --watch",
-    "lint": "tslint \"src/**/*.ts*\" --force",
-    "prepublish": "npm run clean && npm run lint && npm run compile"
+    "prepublish": "npm run clean && npm run compile"
   },
   "bugs": {
     "url": "https://github.com/fabiospampinato/unstated-with-containers/issues"
@@ -34,7 +33,6 @@
     "@types/react": "^16.4.13",
     "react": "^16.5.0",
     "rimraf": "^2.6.0",
-    "tslint": "^4.4.2",
     "typescript": "~3.0.3",
     "unstated": "^2.1.1"
   },

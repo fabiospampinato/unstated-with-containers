@@ -28,9 +28,10 @@
     "hoc",
     "containers"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@types/react": "^16.7.6"
+  },
   "devDependencies": {
-    "@types/react": "^16.4.13",
     "react": "^16.5.0",
     "rimraf": "^2.6.0",
     "typescript": "~3.0.3",
